@@ -17,3 +17,15 @@ Libraries/APIs/Programs:
 * Character animation: Unity - chosen because it's free and due to the large support/userbase
 
 Most development will occur via a Raspberry Pi 3. The exception is the initial character/unity creation, which will happen in Windows, until I understand the interface well enough to port it to linux (or all development in Windows and just porting the generated interface).
+
+## Setup
+```
+python -m venv venv
+. venv/bin/activate
+```
+```
+pip3 install -r requirements.txt
+```
+```
+source .env
+```
