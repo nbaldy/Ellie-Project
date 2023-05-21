@@ -20,12 +20,5 @@ Most development will occur via a Raspberry Pi 3. The exception is the initial c
 
 ## Setup
 ```
-python -m venv venv
-. venv/bin/activate
-```
-```
-pip3 install -r requirements.txt
-```
-```
-source .env
+./install_deps.sh
 ```
